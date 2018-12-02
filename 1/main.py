@@ -9,6 +9,6 @@ while not duplicate_found:
         if frequency in reached_frequencies:
             print("found twice: ", frequency)
             duplicate_found = True
+            break
         else:
             reached_frequencies.append(frequency)
-            print(len(reached_frequencies))
